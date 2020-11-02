@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Apr 22 10:56:19 2020
+# Process ID: 1276
+# Current directory: C:/Users/Shadow/FPGA_Audio_Recorder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10600 C:\Users\Shadow\FPGA_Audio_Recorder\FPGA_Audio_Recorder.xpr
+# Log file: C:/Users/Shadow/FPGA_Audio_Recorder/vivado.log
+# Journal file: C:/Users/Shadow/FPGA_Audio_Recorder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Shadow/FPGA_Audio_Recorder/FPGA_Audio_Recorder.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Shadow/FPGA_Audio_Recorder/FPGA_Audio_Recorder.srcs/sim_1/new/Serializer_tb.sv w ]
+add_files -fileset sim_1 C:/Users/Shadow/FPGA_Audio_Recorder/FPGA_Audio_Recorder.srcs/sim_1/new/Serializer_tb.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Serializer_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Serializer [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source Serializer_tb.tcl
+close_sim
+launch_simulation
+source Serializer_tb.tcl
+close_sim
+launch_simulation
+source Serializer_tb.tcl
+close_sim
+launch_simulation
+source Serializer_tb.tcl
+close_sim

@@ -1,0 +1,3 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+$finish called at time : 70 us : File "C:/Users/Owner/Desktop/FPGA_Audio_Recorder-master/FPGA_Audio_Recorder.srcs/sim_1/new/Serializer_tb.sv" Line 60

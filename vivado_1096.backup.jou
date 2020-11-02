@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Apr 29 19:38:30 2020
+# Process ID: 1096
+# Current directory: C:/Users/Shadow/Desktop/FPGA_Audio_Recorder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5928 C:\Users\Shadow\Desktop\FPGA_Audio_Recorder\FPGA_Audio_Recorder.xpr
+# Log file: C:/Users/Shadow/Desktop/FPGA_Audio_Recorder/vivado.log
+# Journal file: C:/Users/Shadow/Desktop/FPGA_Audio_Recorder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Shadow/Desktop/FPGA_Audio_Recorder/FPGA_Audio_Recorder.xpr
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Deserializer [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Deserializer_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source Deserializer_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Serializer [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Serializer_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source Serializer_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Timer [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Shadow/Desktop/FPGA_Audio_Recorder/FPGA_Audio_Recorder.srcs/sim_1/new/timer_tb.sv w ]
+add_files -fileset sim_1 C:/Users/Shadow/Desktop/FPGA_Audio_Recorder/FPGA_Audio_Recorder.srcs/sim_1/new/timer_tb.sv
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top timer_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property -name {xsim.simulate.runtime} -value {1250000ns} -objects [get_filesets sim_1]
+set_property -name {xsim.simulate.runtime} -value {260000ns} -objects [get_filesets sim_1]
+launch_simulation
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source timer_tb.tcl
+close_sim
+launch_simulation
+source timer_tb.tcl
+close_sim
+launch_simulation
+source timer_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {26000000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source timer_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {2600000ns} -objects [get_filesets sim_1]
+set_property -name {xsim.simulate.log_all_signals} -value {true} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source timer_tb.tcl
+close_sim
+launch_simulation
+source timer_tb.tcl
+close_sim
+set_property -name {xsim.simulate.runtime} -value {1251000ns} -objects [get_filesets sim_1]
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source timer_tb.tcl
+close_sim

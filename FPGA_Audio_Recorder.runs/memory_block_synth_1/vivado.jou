@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Apr 27 11:40:23 2020
+# Process ID: 8172
+# Current directory: C:/Users/Owner/Desktop/FPGA_Audio_Recorder-master/FPGA_Audio_Recorder.runs/memory_block_synth_1
+# Command line: vivado.exe -log memory_block.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source memory_block.tcl
+# Log file: C:/Users/Owner/Desktop/FPGA_Audio_Recorder-master/FPGA_Audio_Recorder.runs/memory_block_synth_1/memory_block.vds
+# Journal file: C:/Users/Owner/Desktop/FPGA_Audio_Recorder-master/FPGA_Audio_Recorder.runs/memory_block_synth_1\vivado.jou
+#-----------------------------------------------------------
+source memory_block.tcl -notrace

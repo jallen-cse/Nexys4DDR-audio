@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"top_tb_time_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../FPGA_Audio_Recorder.srcs/sim_1/new/Deserializer_tb.sv" \
+"../../../../../FPGA_Audio_Recorder.srcs/sim_1/new/Serializer_tb.sv" \
+"../../../../../FPGA_Audio_Recorder.srcs/sim_1/new/top_tb.sv" \
+"../../../../../FPGA_Audio_Recorder.srcs/sim_1/new/timer_tb.sv" \
+"../../../../../FPGA_Audio_Recorder.srcs/sim_1/new/LED_tb.sv" \
+"../../../../../FPGA_Audio_Recorder.srcs/sim_1/new/Synchronizer_tb.sv" \
+"../../../../../FPGA_Audio_Recorder.srcs/sim_1/new/controller_tb.sv" \
+"../../../../../FPGA_Audio_Recorder.srcs/sim_1/new/sim_post_imp.sv" \
+
+# Do not sort compile order
+nosort

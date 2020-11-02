@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Apr 30 15:30:40 2020
+# Process ID: 29308
+# Current directory: C:/Users/Owner/Documents/GitHub/FPGA_Audio_Recorder/FPGA_Audio_Recorder.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Owner/Documents/GitHub/FPGA_Audio_Recorder/FPGA_Audio_Recorder.sim/sim_1/behav/xsim/xsim.dir/Synchronizer_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Owner/Documents/GitHub/FPGA_Audio_Recorder/FPGA_Audio_Recorder.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Owner/Documents/GitHub/FPGA_Audio_Recorder/FPGA_Audio_Recorder.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Owner/Documents/GitHub/FPGA_Audio_Recorder/FPGA_Audio_Recorder.sim/sim_1/behav/xsim/xsim.dir/Synchronizer_tb_behav/webtalk/xsim_webtalk.tcl -notrace

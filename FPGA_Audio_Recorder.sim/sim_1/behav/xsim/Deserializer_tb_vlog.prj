@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FPGA_Audio_Recorder.srcs/sources_1/ip/memory_block/sim/memory_block.v" \
+
+sv xil_defaultlib  \
+"../../../../FPGA_Audio_Recorder.srcs/sources_1/new/Controller.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sources_1/new/Deserializer.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sources_1/new/LED_decoder.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sources_1/new/Serializer.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sources_1/new/Synchronizer.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sources_1/new/timer.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sources_1/new/top.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sim_1/new/Deserializer_tb.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sim_1/new/Serializer_tb.sv" \
+"../../../../FPGA_Audio_Recorder.srcs/sim_1/new/top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
